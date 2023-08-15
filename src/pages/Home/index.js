@@ -19,7 +19,7 @@ const Home = () => {
 
         {/* SABORES SECTION*/}
         <section>
-          <div className="row">
+          <div className="row container">
             <div className="img-wrapper">
               <img
                 src="assets/banner-sabores.jpg"
@@ -45,7 +45,7 @@ const Home = () => {
         {/* fim sabores */}
 
         {/* EVENTO SECTION  */}
-        <section className="row">
+        <section className="row container">
           <div className="content-wrapper">
             <div className="content">
               <h2>NOSSOS EVENTOS</h2>
@@ -65,7 +65,7 @@ const Home = () => {
         {/* fim evento  */}
 
         {/* ABOUT SECTION*/}
-        <section className="row">
+        <section className="row container">
           <div className="img-wrapper">
             <img
               src="assets/sobre-image.jpg"
