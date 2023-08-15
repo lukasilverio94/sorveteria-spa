@@ -15,46 +15,63 @@
   color: #fff;
   font-size: 4rem;
   text-shadow: 3px 5px 2px #474747;
+  text-align: center;
 }
 
 /* SABORES */
-.container-flex {
-  display: flex;
+.row {
+  width: 100%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.container-flex .flex-item {
-  flex: 1 1 auto;
-  width: 48%;
-}
-
-.container-flex img {
-  width: 50%;
-}
-
-.container-flex .text-container {
+.row .content-wrapper .content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  line-height: 1.6;
+  padding: 1.6rem 1.8rem;
+}
+.row .img-wrapper img {
+  width: 100%;
+  order: 1;
 }
 
-.container-flex .text-container h2 {
-  font-size: 2.4rem;
-  font-weight: 600;
+.row .content-wrapper {
+  width: 100%;
+  order: 2;
+}
+
+.row .content-wrapper .content h2 {
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.1rem;
 }
 
-.container-flex .text-container span {
+.row .content-wrapper .content span {
   font-style: italic;
-  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }
 
-.container-flex .text-container p {
-  width: 80%;
-  font-weight: 500;
-  letter-spacing: 0.1rem;
+.row .content-wrapper .content p {
+    line-height: 26px;
+    letter-spacing: .8px;
+    font-weight: 500;
+}
+
+/* media queries */
+@media (max-width: 436px) {
+  .banner {
+    height: 80vh;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+  }
+  /* container rows */
+  .row {
+    grid-template-columns: 1fr;
+  }
 }

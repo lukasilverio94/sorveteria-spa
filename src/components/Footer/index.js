@@ -25,7 +25,7 @@ export default function Footer() {
       </div>
       <div>
         <p className="developed-by">
-          Gelateria. Orgulhosamente desenvolvido por "nome do desenvolvedor"
+          Developed by Lucas Silverio
         </p>
       </div>
     </footer>
