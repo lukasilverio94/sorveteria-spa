@@ -107,6 +107,9 @@
     grid-template-columns: 1fr;
   }
 
+  .row:first-child {
+    padding-bottom: 3rem;
+  }
   .row .content-wrapper {
     height: 70vh;
     font-size: 1.1rem;
