@@ -1,10 +1,10 @@
+import "./style.css";
 export default function Footer() {
   return (
     <footer>
-      <div className="container-flex">
-        <div>
-          <img src="assets/logo.png" alt="Logo do footer" />
-        </div>
+      <div className="container-footer">
+        <img src="assets/logo.png" alt="Logo do footer" className="logo" />
+
         <div>
           <h3>ENDEREÇO</h3>
           <p>Av. Bernardino de Campos, 98</p>
@@ -22,10 +22,11 @@ export default function Footer() {
           <p>ABERTO TODOS OS DIAS</p>
           <p>10:00 - 22:00</p>
         </div>
-
-        <div>
-        <p>Gelateria. Orgulhosamente desenvolvido por "nome do desenvolvedor"</p>
       </div>
+      <div>
+        <p className="developed-by">
+          Gelateria. Orgulhosamente desenvolvido por "nome do desenvolvedor"
+        </p>
       </div>
     </footer>
   );

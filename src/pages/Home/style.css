@@ -1,0 +1,60 @@
+.banner {
+  height: 90vh;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/public/assets/banner-home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(249, 219, 121);
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+/* SABORES */
+.container-flex {
+  display: flex;
+}
+
+.container-flex .flex-item {
+  flex: 1 1 auto;
+  width: 48%;
+}
+
+.container-flex img {
+  width: 50%;
+}
+
+.container-flex .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 1.6;
+}
+
+.container-flex .text-container h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.container-flex .text-container span {
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.container-flex .text-container p {
+  width: 80%;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}

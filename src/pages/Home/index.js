@@ -1,6 +1,9 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
+import './style.css'
+
+
 const Home = () => {
   return (
     <>
@@ -16,10 +19,10 @@ const Home = () => {
         {/* FIM BANNER */}
 
         {/* SABORES SECTION*/}
-        <section className="flavors">
-          <div className="container-flavors">
-            <img src="assets/banner-sabores.jpg" alt="Sorvete foto" />
-            <div className="text-container">
+        <section>
+          <div className="container-flex">
+            <img src="assets/banner-sabores.jpg" alt="Sorvete foto" className="flex-item" />
+            <div className="text-container flex-item">
               <h2>nossos sabores</h2>
               <span>Novos e deliciosos!</span>
               <p>
@@ -35,8 +38,8 @@ const Home = () => {
         {/* fim sabores */}
 
         {/* EVENTO SECTION  */}
-        <section className="events">
-          <div>
+        <section className="container-flex">
+          <div className="flex-item text-container">
             <h2>NOSSOS EVENTOS</h2>
             <span>Delicias com sorvete!</span>
             <p>
@@ -46,14 +49,14 @@ const Home = () => {
               aqui com a gente.
             </p>
           </div>
-          <img src="assets/eventos-image.jpg" alt="mesa de festa" />
+          <img src="assets/eventos-image.jpg" alt="mesa de festa" className="flex-item" />
         </section>
         {/* fim evento  */}
 
         {/* ABOUT SECTION*/}
-        <section className="about">
-          <img src="assets/sobre-image.jpg" alt="pessoas comendo sorvete" />
-          <div>
+        <section className="container-flex">
+          <img src="assets/sobre-image.jpg" alt="pessoas comendo sorvete" className="flex-item"/>
+          <div className="flex-item text-container">
             <h2>SOBRE NÓS</h2>
             <span>Alegria em cada casquinha!</span>
             <p>
