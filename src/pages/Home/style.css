@@ -14,7 +14,7 @@
 .banner h1 {
   color: #fff;
   font-size: 4rem;
-  text-shadow: 3px 5px 2px #474747;
+  text-shadow: 3px 5px 2px #454354;
   text-align: center;
 }
 
@@ -56,22 +56,34 @@
 }
 
 .row .content-wrapper .content p {
-    line-height: 26px;
-    letter-spacing: .8px;
-    font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
 }
 
 /* media queries */
+
 @media (max-width: 436px) {
   .banner {
     height: 80vh;
   }
 
   .banner h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
   /* container rows */
   .row {
     grid-template-columns: 1fr;
+  }
+
+  .row .content-wrapper {
+    height: 70vh;
+    font-size: 1.1rem;
+    display: grid;
+    place-items: center;
+  }
+
+  .row .content-wrapper .content span {
+    font-size: 1.4rem;
   }
 }
