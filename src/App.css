@@ -17,3 +17,30 @@
 }
 
 
+/* scrollbar */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Light background color for the track */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #ff9966, #ff5e62); /* Gradient for the thumb */
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* Gradient on hover */
+}
+
+/* Hide the scrollbar when not interacting */
+body::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* Gradient on active */
+}
+
+/* Hide the scrollbar corners */
+body::-webkit-scrollbar-corner {
+    background: #f0f0f0;
+}

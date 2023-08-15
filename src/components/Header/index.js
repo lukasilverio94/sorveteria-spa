@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './style.css'
-
+import "./style.css";
 
 export default function Header() {
   return (
     <header>
       <nav className="container">
-        <img src="assets/logo.png" className="logo"/>
+        <Link to="/">
+          <img src="assets/logo.png" className="logo" />
+        </Link>
         <ul>
           <li>
             <Link to="/">Home</Link>
