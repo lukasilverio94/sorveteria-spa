@@ -34,6 +34,31 @@ nav ul li a:hover {
   color: rgb(249, 219, 121);
 }
 
+/* MEDIA BIGGER SCREENS ===================================================================*/
+@media (width > 1300px) {
+  nav {
+    justify-content: space-around;
+  }
+  nav ul li a {
+    font-size: 1.8rem;
+  }
+}
+/* MEDIA TABLET >768px ===================================*/
+@media (width > 768px){
+ nav {
+  padding: 0 2.2rem;
+ }
+}
+/* MEDIA TABLET 768px ===================================*/
+@media (max-width: 768px) {
+  nav {
+    padding: 0 2rem;
+  }
+  nav ul li a {
+    font-size: 1.5rem;
+  }
+}
+
 /* MEDIA MOBILE */
 @media (max-width: 436px) {
   nav {
@@ -53,22 +78,5 @@ nav ul li a:hover {
   }
 }
 
-/* MEDIA TABLET 768px */
-@media (max-width: 768px) {
-  header {
-    padding: 0 1.5rem;
-  }
-  nav ul li a {
-    font-size: 1.5rem;
-  }
-}
 
-/* MEDIA BIGGER SCREENS */
-@media (width > 1300px) {
-  nav {
-    justify-content: space-around;
-  }
-  nav ul li a {
-    font-size: 1.8rem;
-  }
-}
+
