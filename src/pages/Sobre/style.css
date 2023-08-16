@@ -1,0 +1,78 @@
+.banner-about {
+  height: 90vh;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/public/assets/banner-sobre.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* TEXT CONTAINER */
+
+.container-about {
+  width: 100%;
+  max-width: 1224px;
+  text-align: center;
+  padding: 4rem;
+}
+
+.container-about h1 {
+  font-size: 2.2rem;
+  border-bottom: 1.5px solid #ccc;
+  margin: 0.9rem;
+}
+
+.container-about span {
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.container-about p {
+  line-height: 1.8;
+  margin-top: 2rem;
+}
+
+/* RESPONSIVENESS */
+
+
+/* MOBILE SCREENS 436PX ================================================== */
+
+
+/* MOBILE SCREENS 436PX ================================================== */
+
+
+
+/* MOBILE SCREENS 436PX ================================================== */
+
+
+/* MOBILE SCREENS 436PX ================================================== */
+@media (max-width: 436px){
+    .container-about {
+        width: 100%;
+        padding: 2rem 1.2rem;
+    }
+
+    .container-about h1 {
+        font-size: 2.8rem;
+    }
+
+    .container-about span {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .container-about p {
+        font-size: 1.4rem;
+    }
+
+    /* img wrapper */
+   .row {
+    margin: 0;
+   }
+   
+}

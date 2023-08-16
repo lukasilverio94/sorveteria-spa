@@ -11,18 +11,10 @@
   background-color: rgb(249, 219, 121);
 }
 
-.banner h1 {
-  color: #fff;
-  font-size: 4rem;
-  text-shadow: 3px 5px 2px #454354;
-  text-align: center;
-}
-
-/* SABORES */
+/* SABORES  CARDS*/
 
 .row {
   width: 100%;
-  max-width: 1170px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -119,7 +111,7 @@
   }
 
   .content-wrapper .content > p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2;
   }
 

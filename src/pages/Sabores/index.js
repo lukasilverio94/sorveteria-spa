@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-import './style.css'
+import "./style.css";
 
 const Sabores = () => {
   return (
@@ -11,9 +11,10 @@ const Sabores = () => {
         {/* banner sabores */}
         <section>
           <div className="banner-flavours">
-            <h1>nossos sabores</h1>
+            <h1 className="banner-title">nossos sabores</h1>
           </div>
         </section>
+
         {/* fim banner */}
 
         {/* section sabores */}
@@ -24,7 +25,6 @@ const Sabores = () => {
               <img src="assets/sabor-oreo.png" alt="Sorvete Oreo" />
               <h3>Sorvete de Oreo</h3>
               <p>Delicioso sorvete sabor Oreo. Uma explosão de sabores</p>
-              
             </div>
 
             <div className="card">
@@ -34,31 +34,32 @@ const Sabores = () => {
             </div>
 
             <div className="card">
-              <img src="assets/sabor-cookies-avela.png" alt="Sorvete Cookies e avela" />
+              <img
+                src="assets/sabor-cookies-avela.png"
+                alt="Sorvete Cookies e avela"
+              />
               <h3>Sorvete Cookies & Avelã</h3>
               <p>Nosso melhor sorvete. Voce vai adorar.</p>
-            
             </div>
 
             <div className="card">
               <img src="assets/sorbet-kiwi.png" alt="Sorvete Oreo" />
               <h3>Sorvete de Kiwi</h3>
-              <p>Delicioso e refrescante sorvete sabor Kiwi. Rico em vitamina C.</p>
-             
+              <p>
+                Delicioso e refrescante sorvete sabor Kiwi. Rico em vitamina C.
+              </p>
             </div>
 
             <div className="card">
               <img src="assets/sorbet-morango.png" alt="Sorvete Oreo" />
               <h3>Sorvete de Morango</h3>
               <p>Sorvete de morango gourmet. Tradicional e saboroso</p>
-              
             </div>
 
             <div className="card">
               <img src="assets/sorbet-limao.png" alt="Sorvete Oreo" />
               <h3>Sorvete de Limão Siciliano</h3>
               <p>Incrível sabor de limão siciliano vai te encantar.</p>
-              
             </div>
           </div>
         </section>

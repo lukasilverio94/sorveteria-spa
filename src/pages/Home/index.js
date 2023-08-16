@@ -12,7 +12,7 @@ const Home = () => {
         {/* BANNER */}
         <section className="banner">
           <div>
-            <h1>Sorvete Artesanal</h1>
+            <h1 className="banner-title">Sorvete Artesanal</h1>
           </div>
         </section>
         {/* FIM BANNER */}
