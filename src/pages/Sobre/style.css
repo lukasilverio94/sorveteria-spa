@@ -39,40 +39,34 @@
 
 /* RESPONSIVENESS */
 
+/* MOBILE SCREENS 436PX ================================================== */
 
 /* MOBILE SCREENS 436PX ================================================== */
 
-
 /* MOBILE SCREENS 436PX ================================================== */
 
-
-
 /* MOBILE SCREENS 436PX ================================================== */
+@media (max-width: 436px) {
+  .container-about {
+    width: 100%;
+    padding: 2rem 1.2rem;
+  }
 
+  .container-about h1 {
+    font-size: 2.8rem;
+  }
 
-/* MOBILE SCREENS 436PX ================================================== */
-@media (max-width: 436px){
-    .container-about {
-        width: 100%;
-        padding: 2rem 1.2rem;
-    }
+  .container-about span {
+    font-size: 2rem;
+    font-weight: 500;
+  }
 
-    .container-about h1 {
-        font-size: 2.8rem;
-    }
+  .container-about p {
+    font-size: 1.4rem;
+  }
 
-    .container-about span {
-        font-size: 2rem;
-        font-weight: 500;
-    }
-
-    .container-about p {
-        font-size: 1.4rem;
-    }
-
-    /* img wrapper */
-   .row {
+  /* img wrapper */
+  .row:first-child {
     margin: 0;
-   }
-   
+  }
 }
