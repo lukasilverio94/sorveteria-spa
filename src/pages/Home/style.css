@@ -68,9 +68,26 @@
   object-fit: cover;
 }
 
+/* RESPONSIVO =================================================================*/
 
-/* media queries */
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
 
+  .row .content-wrapper .content {
+    padding: 1rem 2.8rem 3rem 3.3rem;
+  }
+  .row .content-wrapper .content h2{
+    font-size: 2.3rem;
+  }
+  .row .content-wrapper .content p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+  }
+}
+
+/* MEDIA QUERIES 480PX ======================================================== */
 @media (max-width: 480px) {
   .banner {
     height: 80vh;
@@ -85,7 +102,7 @@
   }
 
   .row:first-child {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
 
   .row .content-wrapper {
@@ -96,87 +113,15 @@
     margin-bottom: 3rem;
   }
 
+  .row .content-wrapper .content h2{
+    line-height: 1.3;
+  }
+
   .row .content-wrapper .content p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    line-height: 1.7;
   }
   .row .content-wrapper .content span {
     font-size: 1.4rem;
-  }
-}
-
-/* MEDIA 768PX */
-@media (max-width: 768px) {
-  .banner h1 {
-    font-size: 4.1rem;
-  }
-  .row {
-    grid-template-columns: 1fr;
-  }
-
-  .row:first-child {
-    padding-bottom: 3rem;
-  }
-  .row .content-wrapper {
-    height: 70vh;
-    font-size: 1.1rem;
-    display: grid;
-    place-items: center;
-  }
-
-  .row .content-wrapper .content h2 {
-    font-size: 2.5rem;
-  }
-
-  .row .content-wrapper .content span {
-    font-size: 1.6rem;
-  }
-
-  .row .content-wrapper .content p {
-    width: 100%;
-    max-width: 500px;
-    line-height: 1.7;
-    font-size: 1.3rem;
-  }
-}
-/* TELAS MAIORES */
-@media (width > 768px) {
-  .row {
-    width: 100%;
-  }
-  .row .img-wrapper img {
-    width: 100%;
-    height: 100%;
-    order: inherit;
-  }
-
-  .row .content-wrapper {
-    width: 100%;
-    order: inherit;
-    padding: 1.5rem 1.3rem;
-  }
-
-  .content-wrapper .content > p {
-    font-size: 1.1rem;
-  }
-}
-
-/* bigger screen */
-@media (width > 1200px) {
-  .row.container {
-    width: 100%;
-    max-width: 1320px;
-  }
-}
-
-/* even bigger */
-@media (width > 1450px) {
-  .row.container {
-    width: 100%;
-    max-width: 1500px;
-  }
-  .img-wrapper img {
-    width: 50%;
-    height: auto;
-    object-fit: contain;
   }
 }
