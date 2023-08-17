@@ -65,7 +65,7 @@
     font-size: 1.4rem;
   }
 
-  /* img wrapper */
+  /* ROW TO REMOVE MARGIN BOTTOM */
   .row:first-child {
     margin: 0;
   }
