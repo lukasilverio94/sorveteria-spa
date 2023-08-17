@@ -29,6 +29,8 @@
   order: 2;
 }
 .row .content-wrapper .content {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,6 +48,7 @@
   font-style: italic;
   font-weight: 600;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .row .content-wrapper .content .paragraph {
@@ -75,16 +78,17 @@
 /* BIG  SCREEN BIGGER THAN 1200px =================================================================*/
 
 @media (width > 1294px) {
+
   .row.container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1700px;
   }
 }
 
 @media (width > 1000px) {
   .row.container {
     width: 100%;
-    max-width: 1320px;
+    max-width: 1500px;
   }
 }
 
@@ -107,12 +111,13 @@
 
   .row .content-wrapper {
     width: 100%;
+    height: 600px;
     order: inherit;
-    padding: 1.5rem 1.3rem;
+    padding: 0rem .5rem;
   }
 
-  .content-wrapper .content  {
-    font-size: 1.1rem;
+  .content-wrapper .content {
+    font-size: 1.3rem;
     line-height: 2;
   }
 
@@ -128,7 +133,7 @@
   }
 
   .row .content-wrapper .content {
-    padding: 1rem 2.8rem 3rem 3.3rem;
+    padding: 2.2rem 2.5rem 4rem 2.5rem;
   }
   .row .content-wrapper .content h2 {
     font-size: 2.3rem;
@@ -139,7 +144,6 @@
   }
   .row .paragraph {
     font-size: 1.7rem;
-    
   }
 }
 
@@ -157,16 +161,19 @@
     grid-template-columns: 1fr;
   }
 
-  .row:first-child {
-    margin-bottom: 6rem;
-  }
+ 
 
   .row .content-wrapper {
-    height: 70vh;
+    padding: 1.5rem 1rem;
     font-size: 1.1rem;
+    text-align: center;
     display: grid;
     place-items: center;
-    margin-bottom: 6.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .row .content-wrapper .content {
+    padding: 1rem 1rem 0 1rem;
   }
 
   .row .content-wrapper .content h2 {
