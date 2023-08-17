@@ -38,13 +38,85 @@
 }
 
 /* RESPONSIVENESS */
+@media only screen and (min-width: 1501px) and (max-width: 1800px) {
+   
+    .banner-about h1 {
+        font-size: 7.5rem;
+    }
 
-/* MOBILE SCREENS 436PX ================================================== */
+    .container-about {
+        padding: 2.5rem 1rem;
+    }
 
-/* MOBILE SCREENS 436PX ================================================== */
+    .container-about h1 {
+        font-size: 3.7rem;
+    }
 
-/* MOBILE SCREENS 436PX ================================================== */
+    .container-about span {
+        font-size: 2.8rem;
+    }
 
+    .container-about .paragraph {
+font-size: 1.7rem;
+    }
+}
+
+/* MOBILE SCREENS min 1201px max 1500px ================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .banner-about h1 {
+    font-size: 6.3rem;
+  }
+
+  .container-about {
+    padding: 2rem 0.6rem;
+  }
+
+  .container-about h1 {
+    font-size: 3rem;
+  }
+
+  .container-about span {
+    font-size: 2rem;
+  }
+
+  .container-about .paragraph {
+    font-size: 1.3rem;
+  }
+}
+/* MOBILE SCREENS BIGGER 768PX ================================================== */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .banner-about h1 {
+    font-size: 7rem;
+  }
+
+  .container-about h1 {
+    font-size: 3.7rem;
+  }
+
+  .container-about span {
+    font-size: 2.5rem;
+  }
+
+  .container-about .paragraph {
+    font-size: 1.6rem;
+  }
+}
+/* MEDIUM SCREENS 768px ================================================== */
+@media only screen and (min-width: 437px) and (max-width: 768px) {
+  .banner-about h1 {
+    font-size: 5rem;
+  }
+  .container-about h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+  }
+  .container-about span {
+    font-size: 1.8rem;
+  }
+  .paragraph {
+    font-size: 1.7rem;
+  }
+}
 /* MOBILE SCREENS 436PX ================================================== */
 @media (max-width: 436px) {
   .container-about {
