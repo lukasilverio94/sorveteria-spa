@@ -19,7 +19,7 @@ const Sabores = () => {
 
         {/* section sabores */}
         <section>
-          <h2>sabores de sorvete</h2>
+          <h1>sabores de sorvete</h1>
           <div className="cards container">
             <div className="card">
               <img src="assets/sabor-oreo.png" alt="Sorvete Oreo" />
