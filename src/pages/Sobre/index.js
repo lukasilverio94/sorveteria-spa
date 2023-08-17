@@ -9,7 +9,7 @@ const Sobre = () => {
       <Header />
       {/* banner */}
       <section>
-        <div class="banner-about">
+        <div className="banner-about">
           <h1 className="banner-title">a gelateria</h1>
         </div>
       </section>
