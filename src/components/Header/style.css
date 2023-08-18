@@ -68,6 +68,9 @@ nav ul li a:hover {
 
 /* MEDIA MOBILE */
 @media (max-width: 436px) {
+  header {
+    position: absolute;
+  }
   nav {
     flex-direction: column;
   }
