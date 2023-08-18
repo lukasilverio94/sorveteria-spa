@@ -78,7 +78,6 @@
 /* BIG  SCREEN BIGGER THAN 1200px =================================================================*/
 
 @media (width > 1294px) {
-
   .row.container {
     width: 100%;
     max-width: 1700px;
@@ -95,7 +94,6 @@
 /* BIG  SCREEN BIGGER THAN 768PX =================================================================*/
 @media (width > 768px) {
   .container {
-    /* max-width: 1400px; */
     width: 100%;
   }
   .row {
@@ -111,18 +109,20 @@
 
   .row .content-wrapper {
     width: 100%;
-    height: 400px;
+    height: 450px;
     order: inherit;
-    padding: 0rem .5rem;
+    padding: 0rem 0.5rem;
   }
 
   .content-wrapper .content {
     font-size: 1rem;
     line-height: 2;
+    padding: 0 0 2rem 0;
   }
-
+  
   .content-wrapper .content span {
     font-size: 1.6rem;
+    margin-bottom: 0.5rem;
   }
 }
 /* QUERIE MEDIUM SCREEN 768PX =================================================================*/
@@ -161,8 +161,6 @@
     grid-template-columns: 1fr;
   }
 
- 
-
   .row .content-wrapper {
     padding: 1.5rem 1rem;
     font-size: 1.1rem;
@@ -171,7 +169,7 @@
     place-items: center;
     margin-bottom: 2rem;
   }
-  
+
   .row .content-wrapper .content {
     padding: 1rem 1rem 0 1rem;
   }
