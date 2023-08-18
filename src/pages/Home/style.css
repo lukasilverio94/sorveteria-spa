@@ -47,12 +47,12 @@
 .row .content-wrapper .content span {
   font-style: italic;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1.3rem;
   text-align: center;
 }
 
 .row .content-wrapper .content .paragraph {
-  line-height: 1.6;
+  line-height: 1.9;
   font-weight: 500;
 }
 

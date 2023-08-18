@@ -41,7 +41,7 @@ nav ul li a:hover {
     justify-content: space-between;
   }
   nav ul li a {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1300px) {
@@ -59,7 +59,7 @@ nav ul li a:hover {
 /* MEDIA TABLET 768px ===================================*/
 @media (max-width: 768px) {
   nav {
-    padding: 0 2rem;
+    padding: 0 .5rem;
   }
   nav ul li a {
     font-size: 1.5rem;
