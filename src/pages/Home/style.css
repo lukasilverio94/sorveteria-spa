@@ -88,14 +88,14 @@
 @media (width > 1000px) {
   .row.container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1300px;
   }
 }
 
 /* BIG  SCREEN BIGGER THAN 768PX =================================================================*/
 @media (width > 768px) {
   .container {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     width: 100%;
   }
   .row {
@@ -111,13 +111,13 @@
 
   .row .content-wrapper {
     width: 100%;
-    height: 600px;
+    height: 400px;
     order: inherit;
     padding: 0rem .5rem;
   }
 
   .content-wrapper .content {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 2;
   }
 
